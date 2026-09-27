@@ -1,0 +1,57 @@
+{
+  "timestamp_local": "2026-09-27T16:27:24-0700",
+  "seed": 20260927,
+  "config": {
+    "smoke": false,
+    "sizes": [
+      10,
+      25,
+      50,
+      100,
+      200,
+      400
+    ],
+    "hilbert_sizes": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "reuse_n": 200,
+    "right_hand_sides": 8,
+    "timing": {
+      "repeats": 9,
+      "warmup": 2,
+      "min_time": 0.003
+    },
+    "random_matrix_distribution": "independent standard normal entries",
+    "known_solution_distribution": "independent standard normal entries; Hilbert solution all ones",
+    "condition_norm": "2; from scipy.linalg.svdvals, an estimate near floating-point limits",
+    "error_norm": "infinity; matrix RHS forward error uses largest entry across all columns",
+    "timing_contract": "default finite checks enabled in package and SciPy; inputs preallocated"
+  },
+  "dtype": "float64",
+  "python": "3.11.15",
+  "numpy": "2.4.3",
+  "numerical_methods": "1.0.0",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "machine": "AMD64",
+  "cpu": "Intel(R) Core(TM) Ultra 9 275HX",
+  "logical_cpus": 24,
+  "blas": "mkl-sdl 2025",
+  "thread_env": {
+    "OMP_NUM_THREADS": null,
+    "MKL_NUM_THREADS": null,
+    "OPENBLAS_NUM_THREADS": null,
+    "NUMEXPR_NUM_THREADS": null
+  },
+  "scipy": "1.17.1",
+  "matplotlib": "3.10.8"
+}

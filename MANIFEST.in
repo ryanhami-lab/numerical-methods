@@ -1,0 +1,18 @@
+include README.md VALIDATION.md COMPLETION.md RELEASE_REVIEW.md
+include .gitignore .github/workflows/ci.yml
+include src/root_finding.py src/benchmarks.py
+recursive-include tests *.py
+recursive-include examples *.py
+recursive-include studies *.py
+recursive-include scripts *.py
+recursive-include results *.json *.csv *.png *.txt
+prune results/validation
+prune .local-review
+prune results/_tmp
+prune results/_smoke
+prune results/root_finding_smoke
+prune results/linear_systems_smoke
+prune results/interpolation_smoke
+prune results/monte_carlo_smoke
+global-exclude *.py[cod]
+

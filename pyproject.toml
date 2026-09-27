@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "numerical-methods"
+version = "1.0.0"
+description = "Root-finding, dense LU/Gaussian elimination, barycentric interpolation and batched Monte Carlo simulation of Brownian/geometric Brownian motion (float64, NumPy)."
+readme = "README.md"
+requires-python = ">=3.10"
+# NOTE: no license has been chosen yet; see README "License" section.
+authors = [{ name = "numerical_methods_library authors" }]
+dependencies = ["numpy>=1.24"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Intended Audience :: Education",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7", "scipy>=1.10"]
+studies = ["scipy>=1.10", "matplotlib>=3.7"]
+dev = ["pytest>=7", "pytest-cov>=4", "scipy>=1.10", "matplotlib>=3.7", "ruff==0.6.9", "build==1.2.2.post1"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["numerical_methods*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+filterwarnings = ["error::RuntimeWarning"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
+extend-exclude = ["notebooks", "**/.ipynb_checkpoints", "src/benchmarks.py"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "NPY"]
+ignore = ["E741", "UP038"]

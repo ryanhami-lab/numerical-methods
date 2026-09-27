@@ -1,0 +1,42 @@
+{
+  "timestamp_local": "2026-09-27T16:29:29-0700",
+  "seed": 20260927,
+  "config": {
+    "smoke": false,
+    "sample_counts": [
+      128,
+      512,
+      2048,
+      8192,
+      32768
+    ],
+    "replications": 400,
+    "batch_size": 8192,
+    "moment_paths": 120000,
+    "moment_grid_points": 9,
+    "known_expectation_samples": 200000,
+    "stability_samples": 200000,
+    "timing_paths": 2000,
+    "timing_steps": 128,
+    "timing_repeats": 7,
+    "seed_scheme": "SeedSequence(base).spawn(6): expectation, BM, GBM, N sweep, stability, timings; N sweep child.spawn(len(N)); each N child.spawn(R). Replications are independent.",
+    "confidence": 0.95
+  },
+  "dtype": "float64",
+  "python": "3.11.15",
+  "numpy": "2.4.3",
+  "numerical_methods": "1.0.0",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "machine": "AMD64",
+  "cpu": "Intel(R) Core(TM) Ultra 9 275HX",
+  "logical_cpus": 24,
+  "blas": "mkl-sdl 2025",
+  "thread_env": {
+    "OMP_NUM_THREADS": null,
+    "MKL_NUM_THREADS": null,
+    "OPENBLAS_NUM_THREADS": null,
+    "NUMEXPR_NUM_THREADS": null
+  },
+  "scipy": "1.17.1",
+  "matplotlib": "3.10.8"
+}

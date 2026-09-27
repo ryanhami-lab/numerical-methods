@@ -1,0 +1,64 @@
+{
+  "timestamp_local": "2026-09-27T16:28:00-0700",
+  "seed": 20260927,
+  "config": {
+    "smoke": false,
+    "interval": [
+      -1.0,
+      1.0
+    ],
+    "degrees": [
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28,
+      30,
+      32,
+      34,
+      36,
+      38,
+      40
+    ],
+    "polynomial_degrees": [
+      0,
+      1,
+      2,
+      5,
+      8
+    ],
+    "evaluation_points": 10001,
+    "timing_repeats": 9,
+    "timing_warmup": 1,
+    "timing_min_sample_seconds": 0.002,
+    "chebyshev_kind": 2,
+    "error_metric": "maximum absolute error on uniform evaluation grid",
+    "lebesgue_metric": "maximum sum of absolute cardinal functions on same grid",
+    "seed_use": "one default_rng stream for polynomial coefficients; Runge experiment is deterministic"
+  },
+  "dtype": "float64",
+  "python": "3.11.15",
+  "numpy": "2.4.3",
+  "numerical_methods": "1.0.0",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "machine": "AMD64",
+  "cpu": "Intel(R) Core(TM) Ultra 9 275HX",
+  "logical_cpus": 24,
+  "blas": "mkl-sdl 2025",
+  "thread_env": {
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "scipy": "1.17.1",
+  "matplotlib": "3.10.8"
+}

@@ -1,0 +1,44 @@
+{
+  "stage": "completed-library validation before GitHub privacy preparation",
+  "checkout": {
+    "python": "3.11.15",
+    "numpy": "2.4.3",
+    "scipy": "1.17.1",
+    "tests_passed": 176,
+    "test_duration_seconds": 1.27,
+    "covered_statements": 669,
+    "total_statements": 669,
+    "line_coverage_percent": 100.0,
+    "ruff": "All checks passed"
+  },
+  "clean_wheel_environments": [
+    {
+      "python": "3.11.15",
+      "numpy": "2.4.6",
+      "scipy": "1.17.1",
+      "pytest": "9.1.1",
+      "test_summary": "172 passed, 1 skipped in 0.97s",
+      "test_exit_code": 0,
+      "examples_run": 4,
+      "examples_passed": true,
+      "site_packages_import_assertions_passed": true,
+      "temporary_environment_removed": true
+    },
+    {
+      "python": "3.13.9",
+      "numpy": "2.5.3",
+      "scipy": "1.18.1",
+      "pytest": "9.1.1",
+      "test_summary": "172 passed, 1 skipped in 0.96s",
+      "test_exit_code": 0,
+      "examples_run": 4,
+      "examples_passed": true,
+      "site_packages_import_assertions_passed": true,
+      "temporary_environment_removed": true
+    }
+  ],
+  "full_studies_completed": 4,
+  "figures_inspected": 11,
+  "remote_ci": "not yet run",
+  "privacy_note": "Personal filesystem paths and raw command logs are intentionally excluded. Full numerical study results and environment metadata are retained."
+}
