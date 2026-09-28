@@ -218,5 +218,5 @@ LAPACK/SciPy solvers. Complex arithmetic, sparse methods, QR, SVD, CG, coupled
 nonlinear systems, general SDE solvers, Milstein, MLMC, PDEs, optimization,
 GPU support, variance reduction and sequential stopping are out of scope.
 
-**No license has been chosen and no LICENSE file is present.** Select a license
-before public distribution; MIT or BSD-3-Clause are common permissive choices.
+Licensed under the [MIT License](LICENSE).
+Copyright (c) 2026 ryanhami-lab.

@@ -185,4 +185,4 @@ PDE, optimization or GPU implementation is included. SciPy SVD is used only to
 estimate condition numbers in the study. Python 3.10 is declared compatible but
 was not locally verified; local wheel checks target 3.11 and 3.13. The original
 validation record covers local checks; consult GitHub Actions for current remote
-results. A license must be selected before public distribution.
+results. The project is licensed under the [MIT License](LICENSE).

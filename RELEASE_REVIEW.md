@@ -2,7 +2,8 @@
 
 This project is prepared for review before any public release. Repository
 visibility should remain **private** until its owner chooses to make it public.
-No license has been selected; no license grant is implied by this review copy.
+The project uses the [MIT License](LICENSE), copyright (c) 2026 ryanhami-lab.
+The source archive and wheel both include the license notice.
 
 ## Start here
 
@@ -30,7 +31,7 @@ settings) is retained to interpret the measurements.
 ## Before making the project public
 
 1. Review the examples, scope and measured claims.
-2. Choose a license and confirm the copyright holder.
+2. Review the MIT license notice and copyright attribution.
 3. Review the GitHub Actions results after the private upload.
 4. Explicitly decide to make the repository public; that is a separate action.
 

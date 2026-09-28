@@ -1,4 +1,4 @@
-include README.md VALIDATION.md COMPLETION.md RELEASE_REVIEW.md
+include LICENSE README.md VALIDATION.md COMPLETION.md RELEASE_REVIEW.md
 include .gitignore .github/workflows/ci.yml
 include src/root_finding.py src/benchmarks.py
 recursive-include tests *.py

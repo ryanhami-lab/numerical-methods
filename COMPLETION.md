@@ -127,5 +127,5 @@ for reproduction. Timing results are observations, not promised performance.
 
 Use **nonlinear equations**, not “nonlinear systems”: there is no coupled
 F: Rⁿ → Rⁿ solver. The timing claims apply to the specified comparisons on one
-recorded environment, not all workloads. No LICENSE file exists; select MIT,
-BSD-3-Clause or another appropriate license before public distribution.
+recorded environment, not all workloads. The project is licensed under the
+[MIT License](LICENSE), copyright (c) 2026 ryanhami-lab.
